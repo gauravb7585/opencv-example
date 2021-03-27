@@ -1,1 +1,1 @@
-web: gunicorn app:app --preload
+web: pip install gunicorn gunicorn app:app --preload
